@@ -5,7 +5,7 @@ import random
 highest = int(input("enter the highest range :"))
 ans = random.randint(0, highest)
 #here we are calling "randint" function from "random" module by dot notation.
-print(ans)
+
 guess = 0
 print(f"enter no betwen 0 to {highest} ")
 while guess != ans:
